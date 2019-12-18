@@ -1,0 +1,480 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+header{
+    background-image: url(./photos/photo\ header\ background.png);
+    background-size: cover;
+    color: white;
+    height: 800px;
+}
+
+header nav {
+    display: flex;
+}
+header nav img{
+   width: 100px;
+   height: 30px;
+    
+}
+.fa-mobile-alt{
+    font-size: 20px;
+    color: white;
+}
+.fa-search{
+    font-size: 20px;
+    color: white;
+    margin-right: 30px;
+
+}
+#icone header{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    justify-content: space-between;
+    width: 50%;
+    display: flex;
+    list-style: none;
+    height: 4vh;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    font-size: small;
+    color: white;
+}
+#titre{
+    width: 70%;
+    margin-top: 280px;
+    margin-left: 300px;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    
+}
+#titre button{
+    background-color: rgb(153,134,117);
+    width: 12vh;
+    height: 4vh;
+    border-radius: 0.2em;
+    border-color: rgb(153,134, 117);
+}
+.flèches{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 300px;
+    font-size: xx-large;
+}
+#logos4{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+.logos4{
+    text-align: center;
+}
+.fa-copy {
+    color: rgb(153,134,117);
+}
+#titreparag{
+    text-align: center;
+    margin-top: 100px;
+}
+#titreparag h3{
+    color: rgb(122, 117, 117);
+    font-size: xx-large;
+}
+
+#photos3{
+    display: flex;
+    width: 40%;
+    margin-left: 300px; 
+}
+#browserleft{
+    width: 40%;  
+    z-index: 2;
+}
+#browsercenter{
+    width: 40%;
+    z-index: 3;
+}
+#browserright{
+    width: 40%;
+    z-index: 1;
+} 
+#bandeau{
+    background-color: rgb(57,40,32);
+    height: 7em;
+    margin-top: -4px;
+    
+} 
+#texte{
+    display: flex;
+   
+}
+#texte h4{
+    color: rgb(153,134,117);
+    font-size: x-large;
+    margin-left: 200px;
+    
+}
+#texte h5{
+    color: white;
+    font-size: medium;
+    margin-left: 20px;
+    margin-top: 40px;
+    
+}
+#parag{
+    color: rgb(153,134,117);
+    font-size: smaller;
+    margin-top: 60px;  
+    margin-left: -355px;
+
+}
+#button{
+    margin-top: -45px;
+    margin-left: 25em;
+    
+}
+#button button{
+    margin-left: 80%;
+    margin-bottom: 40px;
+    background-color:rgb(153,134,117);
+    border-color: rgb(153,134, 117);
+    color: white;
+}
+nav{
+    text-align: center;
+}
+#OLP ul li a{
+    color: black;
+    border: solid;
+    border-width: 0.7px;
+    border-radius: 3px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: -100px;
+}   
+#OLP h6{
+    font-size:xx-large ;
+    color: rgb(153,134,117);
+}
+#OLP li{
+    margin-top: 80px;
+   
+}
+#All a{
+    background-color: rgb(153,134,117);
+    
+}
+#images123{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 400px;
+    
+} 
+#images123 img{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    padding: 40px;
+    
+}
+#tel figcaption{
+    background-color: rgb(235, 229, 219);
+    margin-top: -65px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 5px;
+}
+#roche figcaption{
+    background-color: rgb(235, 229, 219);
+    margin-top: -65px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 5px;
+}
+#livre figcaption{
+    background-color:rgb(235, 229, 219);
+    margin-top: -65px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 5px;
+}
+#images456{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 400px;
+    margin-top: -20px;
+}
+#images456 img{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    padding: 40px; 
+}
+#oiseau figcaption{
+    background-color: rgb(235, 229, 219);
+    margin-top: -65px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 5px;
+
+}
+#livre2 figcaption{
+    background-color: rgb(235, 229, 219);
+    margin-top: -65px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 5px;
+}
+#mer figcaption{
+    background-color: rgb(235, 229, 219);
+    margin-top: -65px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 5px;
+}
+#clavierfond{
+    background-image: url(./photos/photo\ clavier\ 2.png);
+    background-size: cover;
+    height: 30em;
+    margin-top: 100px;
+    
+}
+#buttonLM button{
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+        margin-left: 50%;
+        height: 30px;
+        border-radius: 3px;
+        background-color: rgb(153,134,117);
+        color: white;
+}
+
+#clavier h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    
+  
+}
+#clavier p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.fa-play-circle{
+    display: flex;
+    margin-left: 50%;
+    color: white;
+    font-size: xxx-large;
+    margin-top: 100px;
+}
+#tel{
+    display: flex;
+ margin-left: 30%;
+ margin-right: 30%;
+}
+#telmain img{
+    width: 80%;
+}
+#paragraphe{
+    width: 80%;
+
+}
+#paragraphe h6{
+    font-size: large;
+}
+#paragraphe p{
+    display: flex;
+    align-items: center;
+    font-size: small;
+}
+#paragraphe div i{
+    display: block;
+
+}
+.fa-chevron-circle-right{
+    color: rgb(153,134,117);
+    margin-left: 10px;
+}
+.fa-chevron-circle-right p{
+    color: black;
+    margin-left: 40px;
+    margin-top: -20px;
+}
+#bandeauicones{
+    display: flex;
+    justify-content: space-between;
+    color: wheat;
+    background-color: rgb(57,40,32);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#gens{
+    display: block;
+    text-align: center;
+    margin-left: 20%;
+}
+#tea{
+    display: block;
+    text-align: center;
+}
+#comment{
+    display: block;
+    text-align: center;
+}
+#coeur{
+    display: block;
+    text-align: center;
+}
+#lunch{
+    display: block;
+    text-align: center;
+    margin-right: 20%;
+}
+#gens::after{
+    content:"_______";
+    clear: both;
+}
+#tea::after{
+    content:"_______";
+    clear: both;
+}
+#comment::after{
+    content:"_______";
+    clear: both;
+}
+#coeur::after{
+    content:"_______";
+    clear: both;
+}
+#lunch::after{
+    content:"_______";
+    clear: both;
+}
+#posts{
+    display: block;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+#posts h6{
+    font-size: larger;
+}
+#posts p{
+    font-size: small;
+    margin-top: -30px;
+}
+#photoscmb {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+#photoscmb img{
+    width: 300px;
+    height: 200px;
+}
+#photoscmb h6{
+    font-size: medium;
+}
+#photoscmb p{
+    
+    align-items: center;
+    font-size: small;
+
+    
+}  
+#photoscmb button{
+    width: 100px;
+    height: 3em;
+    border: 0ch;
+    color: rgb(153,134,117); 
+
+}
+#paysage-montagne{
+    background-image: url(./photos/photo\ footer.png); 
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+} 
+#paysage-montagne img{
+    justify-content: space-evenly;
+    width: 250px;
+    height: 200px;
+    margin-left: 180px;
+} 
+#footer{
+    background-color:rgb(37, 36, 36);
+    display: flex;
+    justify-content: space-around;
+    color: blanchedalmond;
+}
+#W img{
+    width: 60%;
+    padding-top: 30px;
+
+}
+#W{
+    padding-left: 80px;
+}
+#W p{
+    font-size: x-small;
+    padding-top: 15px;
+}
+#RP h6{
+   font-size: medium;
+}
+#RP p{
+    font-size: x-small;
+}
+#twitter h6{
+    font-size: medium;
+}
+#twitter p{
+    font-size: x-small;
+}
+#widget h6{
+    font-size: medium;
+}
+#i12 img{
+    width: 30%;
+    padding-top: -20px;
+    
+}
+#i34 img{
+    width: 30%;
+ 
+}
+#W button{
+    color: blanchedalmond;
+    background-color: black;
+    border-radius: 0px;
+}
+#footerbas{
+    padding-top: 50px;
+    background-color: black;
+
+    
+}
+#fb{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
